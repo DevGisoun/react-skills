@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Effect from './Effect';
 
 function App() {
     // useState => Hooks
@@ -42,6 +43,10 @@ function App() {
                 <div>
                     <b>닉네임: {nickname}</b>
                 </div>
+            </div>
+            <hr></hr>
+            <div>
+                <Effect />
             </div>
         </>
     );
