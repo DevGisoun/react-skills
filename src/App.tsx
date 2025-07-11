@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import Effect from './Effect';
+import Average from './Average';
+import Callback from './Callback';
+import Ref from './Ref';
 
 function App() {
     // useState => Hooks
@@ -44,9 +47,21 @@ function App() {
                     <b>닉네임: {nickname}</b>
                 </div>
             </div>
-            <hr></hr>
+            <hr />
             <div>
                 <Effect />
+            </div>
+            <hr />
+            <div>
+                <Average />
+            </div>
+            <hr />
+            <div>
+                <Callback />
+            </div>
+            <hr />
+            <div>
+                <Ref />
             </div>
         </>
     );
